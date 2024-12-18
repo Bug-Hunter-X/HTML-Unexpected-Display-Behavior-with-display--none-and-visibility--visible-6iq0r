@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <script>
+    // Correct approach:  Set display to block (or inline, inline-block, etc. depending on context) to make element visible
+    document.getElementById("myDiv").style.display = "block";
+  </script>
+</body>
+</html>
